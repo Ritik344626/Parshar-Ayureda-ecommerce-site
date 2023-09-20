@@ -36,8 +36,8 @@ $(document).ready(function(){
   });
   });
 
-$('.carousel').carousel({
-  interval: 500
+$('#demo').carousel({
+  interval: 2000
 })
   
   
