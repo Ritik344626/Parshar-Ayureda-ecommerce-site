@@ -36,11 +36,7 @@ $(document).ready(function(){
   });
   });
 
-$('#demo').carousel({
-  interval: 2000
-})
-  
-  
+
 
     
     
