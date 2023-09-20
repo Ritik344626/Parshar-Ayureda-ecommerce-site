@@ -1,0 +1,327 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.separator-type,
+.title-type,
+.intro-type,
+.content-type .intro-type p {
+  position: relative;
+}
+
+.intro-type .container {
+  padding: 107px 0px 102px 0px !important;
+}
+
+#product-header-section,
+.intro-type .container {
+  padding: 68px 15px 72px !important;
+}
+
+@media (min-width: 1630px) .container {
+  width: 1630px;
+}
+
+.parallax {
+  background-attachment: inherit !important;
+}
+
+.parallax {
+  background-attachment: inherit !important;
+  background-repeat: repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  z-index: -10;
+}
+
+.company-heading h1 {
+  margin-bottom: 40px;
+  line-height: 80px;
+  color: white;
+  font-weight: 600 !important;
+  text-align: center;
+}
+
+.seo-header,
+.product-header,
+.intro-type .container h1.white,
+.company-heading h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100 !important;
+  text-transform: capitalize;
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.company-sections h2,
+.careers-sections h2,
+.perks-section h2 {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.company-sections h2,
+.company-sections h3,
+.careers-sections h2,
+.perks-section h2 {
+  font-family: "proxima-nova", sans-serif;
+}
+
+.company-sections h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 14px 0;
+  font-family: "proxima-nova", sans-serif;
+  text-transform: capitalize;
+}
+
+.red-border {
+  width: 100%;
+  border-bottom: 1px solid #d2282e;
+  margin: 0 auto;
+  height: 16px;
+}
+
+.company-sections p {
+  margin-top: 20px;
+}
+
+.ct-u-size22 {
+  font-size: 18px;
+  text-align: left;
+}
+
+.ct-u-fontWeight300 {
+  font-weight: 300;
+}
+
+.marginTop40 {
+  margin-top: 40px !important;
+}
+
+.ct-u-paddingBoth100 {
+  padding: 100px 15px !important;
+}
+
+.culture-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(https://img.freepik.com/premium-photo/nature-fresh-green-leaf-blurred-greenery-background_364465-26.jpg)
+      top no-repeat;
+  /* background-color: #095c87; */
+  /* color: #fff; */
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.mb4 img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top !important;
+
+
+}
+
+.careers-sections,
+.left-headquarter-section-img,
+.right-headquarter-section-img {
+  text-align: center !important;
+}
+
+.ct-u-paddingBoth100 {
+  padding: 100px 15px;
+}
+
+.company-sections h2,
+.careers-sections h2,
+.perks-section h2 {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.company-sections h2,
+.company-sections h3,
+.careers-sections h2,
+.perks-section h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* vision and mission */
+
+.title {
+  font-size: 2em;
+  color: #8c0c60;
+  display: block;
+}
+
+.sub-title {
+  font-size: 1.5em;
+  color: #1e1e1e;
+  display: block;
+}
+
+.title:before {
+  font-size: 20px;
+}
+
+.section2,
+.section3 {
+  width: 90%;
+  margin: 5% 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section2 table,
+.section3 table {
+  width: 100%;
+}
+
+.section2 table td,
+.section3 table td {
+  width: 50%;
+}
+
+.section2 table td img,
+.section3 table td img {
+  width: 80%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  /* box-shadow:0px 6px 16px -6px rgba(1,1,1,0.5); */
+}
+
+.section3 table td img {
+  float: right;
+}
+
+@media (max-width: 720px) {
+  .section2 table td,
+  .section3 table td {
+    width: 100%;
+    display: block;
+  }
+
+  .section3 table td img {
+    float: none;
+    margin-top: 4%;
+  }
+
+  .section2 table td img,
+  .section3 table td img {
+    width: 100%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 300px) {
+  .section2,
+  .section3 {
+    font-size: 12px;
+  }
+
+  .section3 table td img {
+    float: none;
+    margin-top: 8%;
+  }
+
+  .btn1,
+  .btn2 {
+    padding: 5px 10px;
+  }
+}
+
+.ct-u-paddingBottom100 {
+  margin-top: 40px;
+}
+
+.culture-section {
+  background-size: cover;
+  color: #fff;
+}
+
+.holder {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.box-set__knight {
+  width: 100px;
+  padding: 0 20px 0 0;
+}
+
+.box-set__knight-image {
+  width: 100%;
+}
+
+.box-set__header {
+  color: #fff;
+  padding: 12px 0 0;
+}
+
+.box-set__header h1 {
+  font-size: 28px;
+}
+
+.box-set__header h1 span {
+  font-size: 15px;
+  display: block;
+  font-weight: normal;
+}
+
+/* founder section */
+#founder {
+  padding: 50px 0;
+  background: rgb(224, 223, 223);
+}
+
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#founder h2 {
+  font-size: 2.3rem;
+}
+
+#founder p {
+  font-size: 18px;
+  color: #101010;
+}
+
+#founder .small {
+  font-size: 4rem;
+  color: #666;
+  font-weight: 300;
+  color: blue;
+}
+
+.about-img {
+  flex: 1 1 400px;
+  margin: 40px;
+  /* transform: translate(150%);  */
+}
+
+.about-text {
+  flex: 1 1 400px;
+  padding: 30px;
+  margin: auto;
+  /* transform: translateX(-150%); */
+
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.about-img img {
+  display: flex;
+  height: 350px;
+  width: 300px;
+  margin: auto;
+  object-fit: fill;
+  object-position: right;
+  border: 2px solid black;
+  border-radius: 15%;
+}

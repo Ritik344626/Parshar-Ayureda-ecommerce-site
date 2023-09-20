@@ -1,0 +1,88 @@
+body {
+  background: #ffc107;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* category header */
+#head {
+  position: absolute;
+  /* top:0;
+    left:0; */
+  background: white;
+  height: 40px;
+  width: 100%;
+  z-index: 1;
+}
+#head ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: table;
+  margin: 0 auto;
+}
+#head li {
+  display: inline-flex;
+}
+#head a {
+  font-size: large;
+  padding: 10px 20px;
+  display: block;
+  color: darkgreen;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+#head a:hover {
+  color: red;
+}
+
+#head .active a {
+  color: red;
+  /* border-bottom: 2px solid #f38a8a; */
+}
+#head section {
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: block;
+  z-index: 0;
+}
+
+#head h2 {
+  padding: 0;
+  margin: 0;
+}
+
+/* main  */
+
+
+* {
+  box-sizing: border-box;
+
+}
+
+.details-card {
+  width: 65%;
+  margin: auto;
+}
+
+.description-container {
+  position: relative;
+  height: 500px;
+}
+
+.main-description h3 {
+  font-size: 2.5rem;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 1em;
+  
+}
